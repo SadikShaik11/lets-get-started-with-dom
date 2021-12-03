@@ -16,3 +16,8 @@ for (let index = 0; index < items.length; index++) {
     items[index].style.fontWeight = "bold"
 
 }
+
+const tag = document.getElementsByTagName('li')
+tag[5].style.backgroundColor = 'green'
+tag[5].style.color = 'yellow'
+tag[5].style.fontWeight = 'bold'
