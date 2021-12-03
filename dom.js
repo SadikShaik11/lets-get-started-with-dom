@@ -21,3 +21,13 @@ const tag = document.getElementsByTagName('li')
 tag[5].style.backgroundColor = 'green'
 tag[5].style.color = 'yellow'
 tag[5].style.fontWeight = 'bold'
+
+//picks frirst li
+const lists = document.querySelector('li')
+lists.style.color = 'orange'
+
+const lists2 = document.querySelector('li:nth-child(3)')
+lists2.style.backgroundColor = 'green'
+lists2.style.color = 'yellow'
+lists2.style.borderBottom = '2px solid yellow'
+lists2.innerHTML = ""
