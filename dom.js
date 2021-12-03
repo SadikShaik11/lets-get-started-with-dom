@@ -30,4 +30,9 @@ const lists2 = document.querySelector('li:nth-child(3)')
 lists2.style.backgroundColor = 'green'
 lists2.style.color = 'yellow'
 lists2.style.borderBottom = '2px solid yellow'
-lists2.innerHTML = ""
+// lists2.innerHTML = ""
+
+const lis = document.querySelectorAll('li')
+lis[2].style.color = 'green'
+lis[2].style.backgroundColor = 'yellow'
+
