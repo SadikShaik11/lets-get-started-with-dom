@@ -8,3 +8,11 @@ const Additem = document.getElementById('books')
 Additem.style.fontWeight = "bold"
 Additem.style.color = "green"
 Additem.style.backgroundColor = "yellow"
+
+const items = document.getElementsByClassName('list-group-item')
+items[3].style.backgroundColor = "green"
+items[3].style.color = "yellow"
+for (let index = 0; index < items.length; index++) {
+    items[index].style.fontWeight = "bold"
+
+}
